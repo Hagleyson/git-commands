@@ -7,3 +7,6 @@ git log --author="hagl"
 git shortlog = mostra em ordem alfabetica os autores
 git shortlog -sn = mostra o nome e a quantidade de commits
 git log --graph = mostra o log em gráfico
+git diff = mostra as modificações antes de commitar
+git diff --name-only = mostra o nome dos arquivos modificados
+git chechout nome do arquivo = para desfazer alteração
