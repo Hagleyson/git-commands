@@ -14,3 +14,6 @@ git reset HEAD = remover do state o estado atual
 git rest --soft hash = volta ao commit selecionado e fica pronto para commitar
 git rest --mixed hash = volta ao commit selecionado e o arquivo fica para usar o git add .
 git rest --hard hash = volta ao commit selecionado e exclui todas as modificações
+git clone = clonar repositório 
+git push = enviar modificações
+git pull = pegar algumas modificações
