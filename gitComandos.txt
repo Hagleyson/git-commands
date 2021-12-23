@@ -27,7 +27,11 @@ git stash = guarda as modificações para não ser enviada
 git stash apply = aplica as modificações
 git stash list = mostra a lista de stash
 git stash clear = limpa o stash
-
+git revert = reverte um commit mas não perde o que foi feito
 *versionamento com tag
 git tag -a versão(ex 1.0.0) -m ""
 git push orign master --tags
+
+apagando tag e branchs remotas
+
+git pish origin :versaoParaApagar
