@@ -23,3 +23,11 @@ git checkout nameBranch = selecionar uma branch
 git branch -D name = deletar uma branch 
 git merge nameBranch = junta as ramificações 
 git rebase nameBranch = junta as ramificações
+git stash = guarda as modificações para não ser enviada
+git stash apply = aplica as modificações
+git stash list = mostra a lista de stash
+git stash clear = limpa o stash
+
+*versionamento com tag
+git tag -a versão(ex 1.0.0) -m ""
+git push orign master --tags
